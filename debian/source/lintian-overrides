@@ -1,0 +1,4 @@
+python-yamllint source: file-without-copyright-information
+python-yamllint source: no-debian-changes
+python-yamllint source: source-contains-prebuilt-windows-binary
+python-yamllint source: source-package-encodes-python-version
