@@ -1,0 +1,4 @@
+yamllint: copyright-without-copyright-notice
+yamllint: initial-upload-closes-no-bugs
+yamllint: no-manual-page
+yamllint: zero-byte-file-in-doc-directory
