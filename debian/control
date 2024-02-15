@@ -1,0 +1,32 @@
+Source: python-yamllint
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@pantarei-design.com>
+Homepage: https://github.com/adrienverge/yamllint/tags
+Vcs-Browser: https://github.com/alvistack/adrienverge-yamllint
+Vcs-Git: https://github.com/alvistack/adrienverge-yamllint.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: yamllint
+Architecture: all
+Description: Linter for YAML files
+ yamllint does not only check for syntax validity, but for weirdnesses
+ like key repetition and cosmetic problems such as lines length, trailing
+ spaces, indentation, etc.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+ python3-pathspec (>= 0.5.3),
+ python3-setuptools,
+ python3-yaml,
+Provides:
+ python3-yamllint,
